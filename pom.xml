@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.mundi.mvc</groupId>
-	<artifactId>JBS</artifactId>
+	<artifactId>devOps2</artifactId>
 	<version>0.1</version>
-	<name>JBS</name>
+	<name>devOps2</name>
 	<description>Projeto Spring MVC - JBS</description>
 
 	<properties>
