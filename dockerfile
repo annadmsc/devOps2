@@ -9,6 +9,6 @@ RUN mvn clean package -DskipTests
 #Package stage
 #
 FROM openjdk:17-jdk-slim
-COPY --from=build /target/JBS-POC-0.0.1-SNAPSHOT.jar JBS-POC.jar
+COPY --from=build /target/devOps2-0.0.1-SNAPSHOT.jar devOps2.jar
 EXPOSE 9192
-ENTRYPOINT ["java","-jar","JBS-POC.jar"]
+ENTRYPOINT ["java","-jar","devOps2.jar"]
